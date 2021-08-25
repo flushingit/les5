@@ -12,7 +12,7 @@ import re
 num_list = []
 final_dict = {}
 
-with open("6_List.txt", encoding='UTF8') as f_obj:
+with open("6_list.txt", encoding='UTF8') as f_obj:
     count = sum(1 for _ in f_obj)
     f_obj.seek(0, 0)
     for x in range(1, count + 1):
